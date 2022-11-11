@@ -1,0 +1,44 @@
+.about-date-area {
+    padding-top: 4.2rem;
+    padding-bottom: 1.6rem;
+    display: flex;
+}
+.about-date-area .date {
+    position: relative;
+    font-size: 6.8rem;
+    line-height: 10.2rem;
+    line-height: 8.5rem;
+    color: #554bb9;
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 0;
+    min-width: 110px;
+}
+
+.about-date-area .date:before {
+    content: "";
+    position: absolute;
+    border: 8px solid #ddd;
+    width: 110px;
+    height: 110px;
+    left: 0;
+    top: -8px;
+    border-radius: 16px;
+    z-index: 0;
+}
+
+.about-date-area .date span {
+    position: relative;
+    right: -16px;
+}
+
+.about-date-area p {
+    margin-top: 2.8rem;
+    padding-left: 1rem;
+}
+
+.about-date-area p span {
+    display: block;
+    color: #1b273d;
+    letter-spacing: .05rem;
+}

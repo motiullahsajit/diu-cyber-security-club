@@ -1,0 +1,44 @@
+.header{
+    background: url('../images/banner1.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        height: 70vh;
+    }
+  }
+.header-text{
+    padding-top: 5rem;
+    height: 24rem;
+}
+.heading-text{
+    color: #efa506;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+
+.intro{
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.date-location{
+    padding: 2rem 0rem;
+    color: #fff;
+    font-weight: 100;
+}
+.header-video-text{
+    color: rgba(255, 255, 255, 0.596);
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+.videoicon-area{
+    margin-left: 2rem;
+}
